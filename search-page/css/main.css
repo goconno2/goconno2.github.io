@@ -1,9 +1,12 @@
 body{
+    box-sizing: border-box
+}
+body{
     font-family: 'Questrial', sans-serif;
 }
 nav li, footer li{
     display: inline;
-    padding: 2px 6px;
+    padding: 2px 12px;
     line-height: 300%;
     color:gray;
 }
@@ -18,7 +21,10 @@ nav a, footer a, footer{
     color:gray;
     text-decoration: none
 }
-nav a, footer a:hover{
+nav a:hover{
+    color:black;
+}
+footer a:hover{
     color:black;
 }
 main ul a{
@@ -27,9 +33,6 @@ main ul a{
 }
 main ul a:hover{
     text-decoration: underline
-}
-header{
-    color: gray;
 }
 input[type="submit"]{
     background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
@@ -52,6 +55,12 @@ head a{
 main ul a{
     font-size: large
 }
-.Green, main p{
-    font-size: 14px;
+main p{
+    font-size: 16px;
+}
+.Excerpt{
+    color: gray;
+}
+.Numbers{
+    color: gray;
 }
