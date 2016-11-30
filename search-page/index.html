@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div id="brand-wrapper">
             <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
             <title> Lougle Search </title>
             <link href="css/main.css" rel="stylesheet" />
-        <header id="top">
-            <img src="https://s3.amazonaws.com/pratt-web-2/lougle-logo.png" id="Lougle" style=height:40px />
-            <form>
-                <input type="text" style=width:600px />
-                <input type="submit" value="" />
-                <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14222218_10210483692553641_6916387533425422658_n.jpg?oh=c950ae1689150d38d3c1aff83a65ee04&oe=5841AD7A" style=height:40px /> 
-            </form>
-        </header>
+            <header>
+                <div id="lougle">
+                    <img src="https://s3.amazonaws.com/pratt-web-2/lougle-logo.png"/>
+                </div>
+                <div id="search">
+                    <form>
+                        <input type="text"/>
+                        <input type="submit" value="" />
+                    </form>
+                </div>
+                <div id="propic">
+                    <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14222218_10210483692553641_6916387533425422658_n.jpg?oh=c950ae1689150d38d3c1aff83a65ee04&oe=5841AD7A"/> 
+                </div>
+            </header>
+        </div>
     </head>
     <body>
         <nav>
@@ -23,59 +31,66 @@
                 <li><a href="https://www.google.com/search?q=rihanna&espv=2&biw=2550&bih=1219&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiaq5C624LPAhXELyYKHSbZAvIQ_AUICigD&dpr=2#q=rihanna&tbm=shop">Shopping</a></li>
             </ul>
         </nav>
-        <main> 
-         <div class="Numbers"> About 264,000,000 results (0.61 seconds) </div>
-            <ul style="list-style-type:none">
-                <li>        
-                  <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ijBRMKkmNYCFYBif-m9zqQ.jpeg" style=width:160px />
-                  <a href="https://theringer.com/what-is-the-best-drake-and-rihanna-outcome-4bc4c80272d4#.wuc6tkv2l" target="_blank"> What Is the Best Drake and Rihanna Outcome? </a>
-                  <div class="Green"> The Ringer - 16 hours ago</div>
-                  <div class="Excerpt"> Or just long enough for Rihanna to turn Drake into Lemonade Jay Z? Which of these AubRih ...
-                </li>
-                <br>
-                <li>
-                  <a href="https://en.wikipedia.org/wiki/Rihanna" target="_blank">Rihanna - Wikipedia, the free encyclopedia</a>
-                  <div class="Green"> https://en.wikipedia.org/wiki/Rihanna </div>
-                  <div class="Excerpt">Robyn Rihanna Fenty is a Barbadian singer and songwriter. Born in Saint Michael and raised in Bridgetown, she first entered the music industry by recording ... 
-                </li>
-                <br>
-                <li>
-                  <a href="http://www.rihannanow.com" target="_blank"> Rihanna </a>
-                  <div class="Green"> www.rihannanow.com/ </div>
-                  <div class="Excerpt">... POLICY · TERMS AND CONDITIONS · AD CHOICES. © 2016 - All Rights Reserved, Rihanna, Roc Nation. 
-                </li>
-                <br>
-                <li>
-                  <a href="http://www.vanityfair.com/hollywood/2015/10/rihanna-cover-cuba-annie-leibovitz" target="_blank"> Rihanna in Cuba: The Cover Story | Vanity Fair </a>
-                  <div class="Green"> www.vanityfair.com/hollywood/2015/10/rihanna-cover-cuba-annie-leibovitz </div>
-                  <div class="Excerpt"> Rihanna is firmly in control of her life and career—but not of her image, which has veered between club-hopping temptress and poster child for victims of ...
-                </li>
-                <br>
-                <li>
-                  <a href="http://www.nytimes.com/2015/10/12/t-magazine/rihanna-miranda-july-interview.html?_r=0" target="_blank"> A Very Revealing Conversation With Rihanna - The New York Times </a>
-                  <div class="Green"> www.nytimes.com/2015/10/12/t-magazine/rihanna-miranda-july-interview.html </div>
-                  <div class="Excerpt"> Rihanna hugged me hello and we sat down in front of two glasses of white wine. ''Your eyes are amazing,'' she told me, pulling her chair closer ... 
-                </li>
-                <br>
-                <li>
-                  <a href="http://www.vogue.com/13413279/rihanna-fenty-puma-anti-april-2016-cover/" target="_blank"> Rihanna on Anti, Fenty x Puma, and Working With Drake - Vogue </a>
-                  <div class="Green"> www.vogue.com/13413279/rihanna-fenty-puma-anti-april-2016-cover/ </div>
-                  <div class="Excerpt"> Rihanna has revealed a new sound, designed a debut fashion line, and is embarking on a 63-city world tour. Can global domination be far ... 
-                </li>
-            </ul>
-          <sidebar>
-            <img src="https://lh3.googleusercontent.com/-haiwVjtYNOw/AAAAAAAAAAI/AAAAAAAAd1s/Eh-Mn_PQXEs/s0-c-k-no-ns/photo.jpg" style=height:160px />
-            <img src="https://static01.nyt.com/images/2015/10/25/t-magazine/25tmag-11well_rihanna-t_CA0/25tmag-11well_rihanna-t_CA0-articleLarge-v2.jpg" style=height:160px />
-            <h1> Rihanna </h1>
-            <div class="Title">Singer</div>
-            <p> Robyn Rihanna Fenty is a Barbadian singer and songwriter. Born in Saint Michael and raised in Bridgetown, she first entered the music industry by recording 
-            demo tapes under the direction of record producer Evan Rogers in 2003.</p>
-            <a href="https://en.wikipedia.org/wiki/Rihanna" target="_blank"> Wikipedia </a>
-          </sidebar>
-        <main>
+        <div id="wrapper" class="clearfix">
+            <main> 
+                <div class="numbers"> About 264,000,000 results (0.61 seconds) </div>
+                <div id-"list">
+                    <ul style="list-style-type:none">
+                        <li>        
+                          <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ijBRMKkmNYCFYBif-m9zqQ.jpeg" />
+                          <a href="https://theringer.com/what-is-the-best-drake-and-rihanna-outcome-4bc4c80272d4#.wuc6tkv2l" target="_blank" class="headlines"> What Is the Best Drake and Rihanna Outcome? </a>
+                          <div class="green"> The Ringer - 16 hours ago</div>
+                          <div class="excerpt"> Or just long enough for Rihanna to turn Drake into Lemonade Jay Z? Which of these AubRih ...
+                        </li>
+                        <br>
+                        <li>
+                          <a href="https://en.wikipedia.org/wiki/Rihanna" target="_blank" class="headlines">Rihanna - Wikipedia, the free encyclopedia</a>
+                          <div class="green"> https://en.wikipedia.org/wiki/Rihanna </div>
+                          <div class="excerpt">Robyn Rihanna Fenty is a Barbadian singer and songwriter. Born in Saint Michael and raised in Bridgetown, she first entered the music industry by recording ... 
+                        </li>
+                        <br>
+                        <li>
+                          <a href="http://www.rihannanow.com" target="_blank" class="headlines"> Rihanna </a>
+                          <div class="green"> www.rihannanow.com/ </div>
+                          <div class="excerpt">... POLICY · TERMS AND CONDITIONS · AD CHOICES. © 2016 - All Rights Reserved, Rihanna, Roc Nation. 
+                        </li>
+                        <br>
+                        <li>
+                          <a href="http://www.vanityfair.com/hollywood/2015/10/rihanna-cover-cuba-annie-leibovitz" target="_blank" class="headlines"> Rihanna in Cuba: The Cover Story | Vanity Fair </a>
+                          <div class="green"> www.vanityfair.com/hollywood/2015/10/rihanna-cover-cuba-annie-leibovitz </div>
+                          <div class="excerpt"> Rihanna is firmly in control of her life and career—but not of her image, which has veered between club-hopping temptress and poster child for victims of ...
+                        </li>
+                        <br>
+                        <li>
+                          <a href="http://www.nytimes.com/2015/10/12/t-magazine/rihanna-miranda-july-interview.html?_r=0" target="_blank" class="headlines"> A Very Revealing Conversation With Rihanna - The New York Times </a>
+                          <div class="green"> www.nytimes.com/2015/10/12/t-magazine/rihanna-miranda-july-interview.html </div>
+                          <div class="excerpt"> Rihanna hugged me hello and we sat down in front of two glasses of white wine. ''Your eyes are amazing,'' she told me, pulling her chair closer ... 
+                        </li>
+                        <br>
+                        <li>
+                          <a href="http://www.vogue.com/13413279/rihanna-fenty-puma-anti-april-2016-cover/" target="_blank" class="headlines"> Rihanna on Anti, Fenty x Puma, and Working With Drake - Vogue </a>
+                          <div class="green"> www.vogue.com/13413279/rihanna-fenty-puma-anti-april-2016-cover/ </div>
+                          <div class="excerpt"> Rihanna has revealed a new sound, designed a debut fashion line, and is embarking on a 63-city world tour. Can global domination be far ... 
+                        </li>
+                    </ul>
+                </div>
+            </main>
+            <aside>
+                <img src="https://lh3.googleusercontent.com/-haiwVjtYNOw/AAAAAAAAAAI/AAAAAAAAd1s/Eh-Mn_PQXEs/s0-c-k-no-ns/photo.jpg" />
+                <img src="https://static01.nyt.com/images/2015/10/25/t-magazine/25tmag-11well_rihanna-t_CA0/25tmag-11well_rihanna-t_CA0-articleLarge-v2.jpg" />
+                <div id="asidetext">
+                    <h1 class="rih"> Rihanna </h1>
+                    <div class="title">Singer</div>
+                    <p> Robyn Rihanna Fenty is a Barbadian singer and songwriter. Born in Saint Michael and raised in Bridgetown, she first entered the music industry by recording 
+                    demo tapes under the direction of record producer Evan Rogers in 2003...<a href="https://en.wikipedia.org/wiki/Rihanna" target="_blank"> Wikipedia </a> </p>
+                </div>
+            </aside>
+        </div>
         <footer>
-            New York, NY - From your Internet address - Use precise location - Learn more -   
-            <a href="#top"> Back to Top</a>
+            <div id="foot">
+                New York, NY - From your Internet address - Use precise location - Learn more -   
+                <a href="#top"> Back to Top</a>
+            </div>
             <ul>
                 <li><a href="https://support.google.com/websearch/?hl=en&rd=2#topic=3378866" target="_blank">Help</a></li>
                 <li><a href="" target="_blank">Send feedback</a></li>

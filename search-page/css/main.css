@@ -1,26 +1,72 @@
 *{
     box-sizing: border-box;
 }
-.clearfix:after {
+.clearfix:after{
     content:" ";
     display:table;
     clear:both;
 }
-body{
-    font-family: 'Questrial', sans-serif;
+#brand-wrapper{
+    /*float: left;*/
+    width: 1280px;
+    background-color: #f1f1f1;
+    /*width: 100%;*/
+}
+header img{
+    float: left;
+    height: 60px;
+    padding: 10px;
+}
+input[type="submit"]{
+    background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
+    background-color: #4285f4;
+    background-size: 18px;
+    border: none;
+    display: inline;
+    height: 40px;
+    width: 40px;
+}
+input[type="text"]{
+    height: 36px;
+    padding-bottom: 20px;
+}
+#search {
+    border: solid red 1px;
+}
+#propic {
+    float: right;
+}
+head a{
+    height: 20px;
+}
+nav {
+    border-bottom: 1px #f1f1f1 solid;
+    /*height: 60px;*/
+    padding-left: 80px;
 }
 nav li, footer li{
     display: inline;
     padding: 2px 12px;
-    line-height: 300%;
     color:gray;
 }
-.current{
-    border-bottom: 4px rgb(66, 133, 264) solid;
-    color: rgb(66, 133, 264);
+body{
+    font-family: 'Questrial', sans-serif;
+    width: 1280px;
 }
-.Green{
-    color: rgb(0, 102, 33);
+.headlines{
+    font-size: 18px;
+}
+.green{
+    font-size: 14px;
+    color: #006621;
+    padding-bottom: 1px;
+    padding-top: 3px;
+}
+.excerpt{
+    font-size: 14px;
+    color: #545454;
+    padding-bottom: 20px;
+    line-height: 16px;
 }
 nav a, footer a, footer{
     color:gray;
@@ -32,6 +78,19 @@ nav a:hover{
 footer a:hover{
     color:black;
 }
+.current{
+    border-bottom: 3px solid #4285f4;
+    color: #4285f4;
+    /*margin: 2px 8px 0;*/
+    padding-bottom: 14px;
+}
+main{
+    float: left;
+    width: 55%;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
 main ul a{
     text-decoration: none;
     color: rgb(26, 13, 171);
@@ -39,48 +98,58 @@ main ul a{
 main ul a:hover{
     text-decoration: underline;
 }
-input[type="submit"]{
-    background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
-    background-color: #4285f4;
-    background-size: 18px;
-    border: none;
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-}
-input[type="text"]{
-    height: 36px;
-}
-header{
-    background-color: #f1f1f1;
-}
-head a{
-    height: 20px;
-}
-main ul a{
-    font-size: large;
-}
-main p{
+main p {
     font-size: 16px;
 }
-.Excerpt{
+.numbers{
     color: gray;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
-.Numbers{
-    color: gray;
+aside{
+    float: right;
+    width: 38%;
+    margin-top: 68px;
+    margin-left: 16px;
+    border: 2px #f1f1f1 solid;
 }
-sidebar{
-    float: left;
-    width: 30%;
+.rih{
+    font-size: 30px;
 }
-main li{
-    width: 55%;
-}
-.Title{
-    color: gray;
-}
-sidebar a{
+aside a{
     display: inline;
-    text-decoration: none
+    text-decoration: none;
     color: rgb(26, 13, 171);
 }
+aside img{
+    height: 209px;
+    padding: 0px;
+}
+.title{
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+#asidetext {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    line-height: 16px;
+}
+main img{
+    height: 100px;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 66px;
+    width: 1280px;
+    background-color: #f1f1f1;
+}
+#foot {
+    padding-left: 52px;
+}
+/** {*/
+/*    border: solid red 1px;*/
+/*}*/
