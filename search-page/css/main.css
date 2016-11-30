@@ -7,42 +7,51 @@
     clear:both;
 }
 #brand-wrapper{
-    /*float: left;*/
     width: 1280px;
     background-color: #f1f1f1;
-    /*width: 100%;*/
+    margin-bottom: 24px;
 }
-header img{
+.lougle{
     float: left;
     height: 60px;
-    padding: 10px;
+    padding: 12px;
+}
+form {
+    padding-top: 10px;
 }
 input[type="submit"]{
     background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
     background-color: #4285f4;
     background-size: 18px;
     border: none;
-    display: inline;
+    /*display: inline;*/
     height: 40px;
     width: 40px;
+    margin-left: -10px;
+    vertical-align: middle;
 }
 input[type="text"]{
-    height: 36px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    padding-left: 8px;
+    height: 40px;
+    width: 560px;
+    vertical-align: middle;
 }
-#search {
-    border: solid red 1px;
-}
-#propic {
+.propic {
     float: right;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: -50px;
+    /*vertical-align: middle;*/
 }
 head a{
     height: 20px;
 }
 nav {
+    font-size: 14px;
     border-bottom: 1px #f1f1f1 solid;
-    /*height: 60px;*/
     padding-left: 80px;
+    padding-bottom: 10px;
 }
 nav li, footer li{
     display: inline;
@@ -65,7 +74,7 @@ body{
 .excerpt{
     font-size: 14px;
     color: #545454;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     line-height: 16px;
 }
 nav a, footer a, footer{
@@ -82,7 +91,7 @@ footer a:hover{
     border-bottom: 3px solid #4285f4;
     color: #4285f4;
     /*margin: 2px 8px 0;*/
-    padding-bottom: 14px;
+    padding-bottom: 22px;
 }
 main{
     float: left;
@@ -90,6 +99,9 @@ main{
     padding-top: 20px;
     padding-left: 80px;
     padding-bottom: 60px;
+}
+main img{
+    height: 100px;
 }
 main ul a{
     text-decoration: none;
@@ -102,6 +114,7 @@ main p {
     font-size: 16px;
 }
 .numbers{
+    font-size: 14px;
     color: gray;
     padding-left: 40px;
     padding-bottom: 20px;
@@ -136,9 +149,6 @@ aside img{
     padding-right: 20px;
     padding-bottom: 20px;
     line-height: 16px;
-}
-main img{
-    height: 100px;
 }
 footer{
     padding-top: 40px;
