@@ -11,18 +11,16 @@
     </head>
     <body>
         <section id="marquee" class="clearfix">
-            <div id="box"
-                <div id="headlines"> 
-                    <h1>A digital tool to create posters and collaborative works of art!<br><br>Get notified when the app is ready</h1>
-                    <form id="headform">
-                        <input type="text" name="email" placeholder="Email"/>
-                        <input type="submit" value="Notify Me" id="button"/>
-                        <p id="success-message">  </p>
-                        <p id="error-message">  </p>
-                    </form>
-                </div>
-                <img src="images/phone.png" id="phone"/>
+            <div id="intro"> 
+                <h1>A digital tool to create posters and collaborative works of art!<br><br>Get notified when the app is ready</h1>
+                <form id="first">
+                    <input type="text" name="email" placeholder="Email"/>
+                    <input type="submit" value="Notify Me" id="button"/>
+                    <p id="success-message">  </p>
+                    <p id="error-message">  </p>
+                </form>
             </div>
+            <img src="images/phone.png" id="phone"/>
         </section>
         <main>
             <section id="module1">
@@ -30,6 +28,7 @@
             </section>    
             <section id="module2">
                 <h1>PAINT WITH OUR<br>WACKY SET OF TOOLS</h1>
+                <p>Our brushes and tools are one of a kind and create custom strokes and paths.</p>
                 <img src="images/icons2-01.png"/>
                 <img src="images/icons2-02.png"/>
                 <img src="images/icons2-03.png"/>
@@ -39,7 +38,7 @@
                 <p>Michael Townsend, Founder of Doublespeak Games</p>
             </section>
             <section id="module4">
-                <div id="discover">
+                <div id="discover" class="clearfix">
                     <h1>DISCOVER<br>THE GALLERY</h1>
                     <p>Publish to the gallery and find other works to remix.</p>
                 </div>
@@ -63,13 +62,15 @@
                 <p>Edward Hopper</p>
             </section>
             <footer>
-                <h2>Get notified when<br>the app is ready</h2>
-                <form>
-                    <input type="text" name="email" placeholder="Email"/>
-                    <input type="submit" value="Notify Me" id="button"/>
-                    <p id="success-message">  </p>
-                    <p id="error-message">  </p>
-                </form>
+                <div id="foot">
+                    <h2>Get notified when<br>the app is ready</h2>
+                    <form>
+                        <input type="text" name="email" placeholder="Email"/>
+                        <input type="submit" value="Notify Me" id="button"/>
+                        <p id="success-message">  </p>
+                        <p id="error-message">  </p>
+                    </form>
+                </div>
             </footer>
         </main>    
     </body>

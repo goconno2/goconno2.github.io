@@ -10,26 +10,59 @@
     display:table;
     clear:both;
 }
+#logo {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#marquee {
+    width: 100%;
+    background-color: rgb(183, 252, 252);
+    padding: 40px;
+}
+#phone {
+    height: 600px;
+    /*display: inline;*/
+    float: right;
+    margin-right: 300px;
+    vertical-align: middle;
+}
+#intro {
+    float: left;
+    width: 40%;
+    margin-left: 200px;
+    padding-top: 160px;
+    /*display: inline;*/
+    vertical-align: middle;
+}
+#first {
+    margin-top: 40px;
+    /*width: 800px;*/
+}
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 28px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
     /*width: 60%;*/
 }
 h1 {
     font-family: "apple_regular";
-    font-size: 28px;
+    font-size: 30px;
     line-height: 38px;
-    width: 60%;
+    /*width: 40%;*/
     text-shadow:
     -2px -0px 0 #FFC0CB,  
      2px -0px 0 #48D1CC,
     -2px 2px 0 #FFFFFF,
      2px 2px 0 #FFFFFF;
     /*padding: 20px;*/
+    margin-top: -23.24px;
+    margin-bottom: -23.24px;
 }
 h2 {
     font-family: "apple_regular";
@@ -43,51 +76,27 @@ h2 {
     -2px 2px 0 #FFFFFF,
      2px 2px 0 #FFFFFF;
 }
-#logo {
-    display: block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#marquee {
-    background-color: rgb(183, 252, 252);
-    padding: 100px;
-}
-#phone {
-    height: 600px;
-    display: inline;
-    float: right;
-    /*margin-right: 200px*/
-    vertical-align: middle;
-}
-#headlines {
-    float: left;
-    /*width: 40%;*/
-    /*margin-left: 200px;*/
-    padding-top: 100px;
-    display: inline;
-    vertical-align: middle;
-}
-#box {
-    width: 80%;
-}
 main h1 {
-    display: block;
+    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
 }
 main h2 {
-    display: block;
+    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
 }
 #module1 {
     background-color: rgb( 255, 193, 187);
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
 #module2 {
     background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
@@ -100,27 +109,40 @@ main h2 {
 }
 #module3 { 
     background-color: rgb(183, 252, 252);
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
 #module4 {
+    /*width: 1280px;*/
     background: url(../images/gallery-1024.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 800px;
+    margin-top: 23.24px;
+}
+#module4 h1 {
+    padding-top: 40px;
 }
 #module5 {
     background-color: rgb(255, 193, 187);
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
 #module5 img {
-    height: 700px;
+    height: 500px;
 }
 #module6 {
     background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
@@ -137,27 +159,35 @@ main h2 {
     padding-right: 60px;
 }
 #module7 { 
+    width: 1280px;
     background-color: rgb(183, 252, 252);
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 60px;
     width: 100%;
 }
-#footer {
+#foot {
+    width: 100%;
     background: url(../images/footer.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1000px;
+    height: 600px;
+    margin-top: -23.24px;
+}
+footer h2 {
+    padding-top: 200px;
 }
 main {
     text-align: center;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
 }
 #module2 img, #module6 img {
     height: 300px;
 }
 input[type=text] {
-    width: 60%;
+    width: 600px;
     padding-bottom: 12px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -182,6 +212,6 @@ input[type=text] {
     font-size: 16px;
     color: black;
 }
-/** {*/
-/*    border: solid red 1px;*/
-/*}*/
+* {
+    border: solid red 1px;
+}
