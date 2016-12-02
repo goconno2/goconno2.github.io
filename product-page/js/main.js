@@ -8,31 +8,31 @@ $(document).ready(function() {
             dataType    : 'json'
         }).done(function(data) {
             console.log(data);
-            $('#success-message').text("Thank you!");
-            $('#error-message').text("");
-            // $('input[name-email]').val("");
-            
+            $("#thanks").fadeIn();
+            $("input[type=text]").val("");
+            $("#error").text();
             
             }).fail(function(data) {
                 console.log(data);
                 var errorMessage = JSON.parse(data.responseText).email[0];
-                $('#error-message').text('Oops! You submitted an invalid email address.');
-                $('#success-message').text("");
-                // $('#success-message').hide();
+                $("#error").fadeIn();
+                $("input[type=text]").val("");
+                $("#thanks").fadeIn();
+                $("#thanks").hide();
                 
-            // }).done(function(data) {
-            //     console.log(data);
-            //     $('#success-message-bottom').text("Thank you!");
-            //     $('#error-message-bottom').text("");
-            //     // $('input[name-email]').val("");
+            }).done(function(data) {
+                console.log(data);
+                $("#thanks1").fadeIn();
+                $("input[type=text]").val("");
+                $("#error1").text();
             
-            
-            // }).fail(function(data) {
-            //     console.log(data);
-            //     var errorMessage = JSON.parse(data.responseText).email[0];
-            //     $('#error-message-bottom').text('Oops! You submitted an invalid email address.');
-            //     $('#success-message-bottom').text("");
-            //     // $('#success-message').hide();
+            }).fail(function(data) {
+                console.log(data);
+                var errorMessage = JSON.parse(data.responseText).email[0];
+                $("#error1").fadeIn();
+                $("input[type=text]").val("");
+                $("#thanks1").fadeIn();
+                $("#thanks1").hide();
             });
         event.preventDefault();
     });

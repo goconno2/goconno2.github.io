@@ -170,7 +170,7 @@ footer {
     text-align: center;
 }
 #foot {
-    width: 100%;
+    width: 1280px;
     background: url(../images/footer.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -212,10 +212,11 @@ input[type=text] {
     display: inline-block;
     font-size: 16px;
 }
-#success-message, #error-message {
+#thanks1, #error1, #thanks, #error {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: black;
+    display: none;
     /*padding-top: -20px;*/
 }
 ::-webkit-input-placeholder {
