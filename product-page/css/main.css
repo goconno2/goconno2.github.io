@@ -36,7 +36,7 @@
     /*display: inline;*/
     vertical-align: middle;
 }
-#first {
+#marquee form {
     margin-top: 40px;
     /*width: 800px;*/
 }
@@ -166,6 +166,9 @@ main h2 {
     padding: 60px;
     width: 100%;
 }
+footer {
+    text-align: center;
+}
 #foot {
     width: 100%;
     background: url(../images/footer.jpg) no-repeat center center; 
@@ -187,8 +190,10 @@ main {
     height: 300px;
 }
 input[type=text] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     width: 600px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
@@ -206,6 +211,12 @@ input[type=text] {
     /*text-align: center;*/
     display: inline-block;
     font-size: 16px;
+}
+#success-message, #error-message {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    /*padding-top: -20px;*/
 }
 ::-webkit-input-placeholder {
     font-family: 'Roboto', sans-serif;
