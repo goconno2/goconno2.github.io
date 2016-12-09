@@ -21,14 +21,14 @@
     background-color: rgb(183, 252, 252);
     padding: 40px;
 }
-#phone {
-    height: 400px;
+/*#phone {*/
+/*    height: 400px;*/
     /*display: inline;*/
-    float: right;
-    margin-right: 100px;
-    vertical-align: middle;
-    padding-top: 100px;
-}
+/*    float: right;*/
+/*    margin-right: 100px;*/
+/*    vertical-align: middle;*/
+/*    padding-top: 100px;*/
+/*}*/
 #intro {
     float: left;
     width: 30%;
