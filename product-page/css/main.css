@@ -22,16 +22,16 @@
     padding: 40px;
 }
 #phone {
-    height: 600px;
+    height: 300px;
     /*display: inline;*/
     float: right;
-    margin-right: 300px;
+    margin-right: 100px;
     vertical-align: middle;
 }
 #intro {
     float: left;
     width: 40%;
-    margin-left: 200px;
+    margin-left: 100px;
     padding-top: 160px;
     /*display: inline;*/
     vertical-align: middle;
@@ -144,11 +144,6 @@ main h2 {
     padding: 60px;
     width: 100%;
 }
-/*#wildcons {*/
-/*    width: 80%;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*}*/
 #module6 img {
     height: 60px;
     padding-bottom: 20px;
