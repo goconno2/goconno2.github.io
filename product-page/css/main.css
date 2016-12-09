@@ -22,7 +22,7 @@
     padding: 40px;
 }
 #phone {
-    height: 300px;
+    height: 400px;
     /*display: inline;*/
     float: right;
     margin-right: 100px;
@@ -53,7 +53,7 @@ p {
 h1 {
     font-family: "apple_regular";
     font-size: 30px;
-    line-height: 38px;
+    line-height: 42px;
     /*width: 40%;*/
     text-shadow:
     -2px -0px 0 #FFC0CB,  
