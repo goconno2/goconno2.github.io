@@ -10,67 +10,70 @@
     display:table;
     clear:both;
 }
+body, main {
+    margin: 0;
+    width: 1280px;
+    text-align: center;
+}
 #logo {
-    display: block;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 12%;
+    display: block; 
+    margin: auto;
+    padding-top: 40px;
+    position: relative;
+    z-index: 3;
 }
 #marquee {
     width: 100%;
     background-color: rgb(183, 252, 252);
-    padding: 40px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 100px;
 }
-#phone {
-    height: 400px;
-    display: inline;
-    float: right;
-    margin-right: 100px;
-    vertical-align: middle;
-    padding-top: 100px;
+#mockup {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+    padding-top: 40px;
 }
 #intro {
-    float: left;
-    width: 30%;
-    margin-left: 100px;
-    padding-top: 160px;
-    /*display: inline;*/
+    width: 70%;
+    padding-top: 60px;
     vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 #marquee form {
     margin-top: 40px;
-    /*width: 800px;*/
 }
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+    padding-top: 40px;
     /*width: 60%;*/
 }
 h1 {
     font-family: "apple_regular";
-    font-size: 24px;
-    line-height: 38px;
-    /*width: 40%;*/
+    font-size: 18px;
+    line-height: 28px;
     text-shadow:
     -2px -0px 0 #FFC0CB,  
      2px -0px 0 #48D1CC,
     -2px 2px 0 #FFFFFF,
      2px 2px 0 #FFFFFF;
-    /*padding: 20px;*/
     margin-top: -23.24px;
     margin-bottom: -23.24px;
 }
 h2 {
     font-family: "apple_regular";
-    font-size: 18px;
+    font-size: 12px;
     line-height: 28px;
-    /*width: 72%;*/
-    padding: 40px;
     text-shadow:
     -2px -0px 0 #FFC0CB,  
      2px -0px 0 #48D1CC,
@@ -86,34 +89,37 @@ main h2 {
     /*display: block;*/
     margin-left: auto;
     margin-right: auto;
+    padding-top: 40px;
 }
 #module1 {
     background-color: rgb( 255, 193, 187);
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 #module2 {
     background-color: white;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #module2 img {
-    height: 60px;
-    padding-bottom: 20px;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
 }
 #module3 { 
     background-color: rgb(183, 252, 252);
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 140px;
+    padding-bottom: 100px;
 }
 #module4 {
     background: url(../images/gallery-1280.jpg) no-repeat center center; 
@@ -123,17 +129,17 @@ main h2 {
     background-size: cover;
     margin-bottom: 0;
     height: 800px;
-    margin-top: 23.24px;
 }
-#module4 h1 {
-    padding-top: 40px;
+#discover {
+    padding-top: 100px;
 }
 #module5 {
     background-color: rgb(255, 193, 187);
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #module5 img {
     width: 76%;
@@ -142,26 +148,38 @@ main h2 {
     background-color: white;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #module6 img {
-    height: 60px;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 20px;
     padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
 }
 #module7 { 
     width: 1280px;
     background-color: rgb(183, 252, 252);
     margin-top: 0;
     margin-bottom: 0;
-    padding: 60px;
     width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 footer {
     text-align: center;
+    font-family: "apple_regular";
+    font-size: 18px;
+    line-height: 28px;
+    text-shadow:
+    -2px -0px 0 #FFC0CB,  
+     2px -0px 0 #48D1CC,
+    -2px 2px 0 #FFFFFF,
+     2px 2px 0 #FFFFFF;
+    margin-top: -23.24px;
+    margin-bottom: -23.24px;
 }
 #foot {
     width: 100%;
@@ -173,15 +191,11 @@ footer {
     height: 600px;
     margin-top: -23.24px;
 }
-footer h2 {
+#box {
     padding-top: 200px;
 }
-main {
-    text-align: center;
-    /*padding-bottom: 100px;*/
-}
-#module2 img, #module6 img {
-    height: 300px;
+#bottomform {
+    padding-top: 40px;
 }
 input[type=text] {
     font-family: 'Roboto', sans-serif;
