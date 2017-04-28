@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background-color: black;
+	margin: 0px;
+    cursor: url(../images/spaceship.png), crosshair;
+}
+img {
+	opacity: 0;
+	position: absolute;
+	z-index: 1;
+}
+/*.red{
+	opacity: 1;
+}*/
+#arecibo {
+	display: table;
+	width: 100%;
+}
+#arecibo .cell {
+	display: table-cell;
+	width: 12.5vw;
+    height: 12.5vh;
+	padding: 0;
+	border: 0;
+}
+#arecibo .cell img {
+	height: 12.5vh;
+	width: 12.5vw;
+	object-fit: cover;
+}
+#arecibo .cell img.show {
+	opacity: 1;
+	z-index: 2;
+}
+#arecibo .row {
+	display: table-row;
+}
+p, h1, nav {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	color: white;
+	cursor: crosshair;	
+}
+#title {
+	margin-top: 42px;
+	margin-left: 120px;
+	line-height: 16px;
+	width: 240px;
+	position: fixed;
+	z-index: 3;
+	cursor: crosshair;
+}
+nav {
+	margin-top: 200px;
+	margin-left: -40px;
+	line-height: 18px;
+	position: fixed;
+	z-index: 3;	
+	transform: rotate(-90deg);
+}
+#directions {
+	/*margin-top: 82px;*/	
+	margin-top: 100px;
+	margin-left: 120px;
+	line-height: 16px;
+	width: 300px;
+	position: fixed;
+	z-index: 3;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#log-link:hover {
+	color: 10ce0e;
+	cursor: crosshair;
+}
+#history-link:hover {
+	color: ac0fc6;
+	cursor: crosshair;
+}

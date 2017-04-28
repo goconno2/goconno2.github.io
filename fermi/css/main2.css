@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;   
+}
+ 
+.container {
+    margin: auto;
+    width: 800px;
+}
+/*.keyboard {
+    cursor: default;
+    font-size: 0px;
+    height: 150px;
+    padding: 0px;
+    position: relative;
+    list-style: none;
+    margin: 0px;
+    width: 600px;
+    user-select: none;
+}*/

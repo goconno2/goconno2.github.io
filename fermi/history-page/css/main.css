@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background-color: black;
+	margin: 0px;
+	cursor: url(../../images/spaceship.png), crosshair;
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 120px;
+	line-height: 16px;
+	position: fixed;
+	z-index: 3;
+}
+nav {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	color: white;
+	margin-top: 200px;
+	margin-left: -40px;
+	line-height: 18px;
+	position: fixed;
+	z-index: 3;	
+	transform: rotate(-90deg);
+}
+#articles {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+	font-weight: normal;
+	padding-top: 36px;
+	margin-left: 400px;
+	width: 660px;
+	position: relative;
+	z-index: 2;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#articles a:hover{
+	color: e60718;
+	cursor: crosshair;
+}
+#log-link:hover {
+	color: 10ce0e;
+	cursor: crosshair;
+}
+#history-link:hover {
+	color: ac0fc6;
+	cursor: crosshair;
+}
+.section{
+	margin-bottom: 60px;
+	border-bottom: 1px solid gray;
+}
+img {
+	opacity: .1;
+}
+img:hover {
+	opacity: 1;
+}
+#cia-pics-6 {
+	width: 87%;
+}
