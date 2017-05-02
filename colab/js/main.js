@@ -1,3 +1,5 @@
+/* global $ */
+
 $(document).ready(function() {
     $('.section#income .wing').hover( function() {
     	$('#background').css('background', 'lime');
