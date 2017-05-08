@@ -43,13 +43,13 @@ body {
 	width: 32%;
 	text-decoration: none
 }
-/*a {*/
-/*    text-decoration: none;*/
-/*    color: black;*/
-/*}*/
-/*.container:hover {*/
-/*    text-decoration: underline;*/
-/*}*/
+a {
+    text-decoration: none;
+    color: black;
+}
+.container:hover {
+    text-decoration: underline;
+}
 img {
     display: inline-block;
     width: 100%;
